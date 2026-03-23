@@ -578,11 +578,7 @@ function Auth({ mode }) {
           <div style={{ fontWeight: 900, fontSize: 24, marginBottom: 6 }}>NEXUS<span style={{ color: "#e8451e" }}>TECH</span></div>
           <h1 style={{ fontWeight: 900, fontSize: 44 }}>{isLogin ? "WELCOME BACK" : "CREATE ACCOUNT"}</h1>
         </div>
-        {isLogin && (
-          <div style={{ background: "#0f0d0b", border: "1px solid #2a2520", padding: 14, marginBottom: 20, fontSize: 12, color: "#666", fontWeight: 600, lineHeight: 1.8 }}>
-            Admin: admin@nexus.com / admin123<br />User: any email + any password
-          </div>
-        )}
+
         <div style={{ background: "#141210", border: "1px solid #1e1c1a", padding: 28 }}>
           <div style={{ display: "grid", gap: 14 }}>
             {!isLogin && (
